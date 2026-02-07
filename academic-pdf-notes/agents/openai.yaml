@@ -1,0 +1,4 @@
+interface:
+  display_name: "学术 PDF 笔记"
+  short_description: "从学术 PDF 生成结构化中文笔记"
+  default_prompt: "使用 $academic-pdf-notes 生成笔记：\n- pdf: '<PDF 路径>'\n- 主索引笔记：<标题>\n- 章节：<章节范围或页码范围>\n- 输出目录（可选）：<目录>\n- 章节结构（可选）：<结构大纲>\n- 特殊要求（可选）：<要求>"
